@@ -1,0 +1,6 @@
+{ "individuals": [
+  { "id": "P" }, { "id": "Q" },
+  { "id": "C", "parent1": "P", "parent2": "Q" },
+  { "id": "D", "parent1": "P", "parent2": "Q" },
+  { "id": "E", "parent1": "C", "parent2": "D" }
+] }
