@@ -1,0 +1,23 @@
+{
+  "name": "pedigree-relationship-backend",
+  "version": "1.0.0",
+  "description": "本地家谱分子亲缘关系矩阵与近交系数计算 API/CLI",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "start": "node --no-warnings dist/src/main.js serve",
+    "dev": "tsx src/main.ts serve",
+    "demo": "tsx scripts/demo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "algorithmVersion": "additive-relationship-recursive-v1",
+  "note": "更正：D 的第二来源由 Q 改为独立创始者 R，因此 C、D 是半同胞，E 的近交系数由 0.25 变为 0.125。",
+  "individuals": [
+    { "id": "P", "parent1": null, "parent2": null },
+    { "id": "Q", "parent1": null, "parent2": null },
+    { "id": "R", "parent1": null, "parent2": null },
+    { "id": "C", "parent1": "P", "parent2": "Q" },
+    { "id": "D", "parent1": "P", "parent2": "R" },
+    { "id": "E", "parent1": "C", "parent2": "D" }
+  ]
+}

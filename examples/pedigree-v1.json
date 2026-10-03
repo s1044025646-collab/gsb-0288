@@ -1,0 +1,11 @@
+{
+  "algorithmVersion": "additive-relationship-recursive-v1",
+  "note": "P、Q 为互不相关创始者；C、D 为全同胞；E 为 C、D 后代。",
+  "individuals": [
+    { "id": "P", "parent1": null, "parent2": null },
+    { "id": "Q", "parent1": null, "parent2": null },
+    { "id": "C", "parent1": "P", "parent2": "Q" },
+    { "id": "D", "parent1": "P", "parent2": "Q" },
+    { "id": "E", "parent1": "C", "parent2": "D" }
+  ]
+}
